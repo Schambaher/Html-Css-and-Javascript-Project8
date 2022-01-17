@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    height: 200vh;
+}
+
+.container {
+    width: 150rem;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
