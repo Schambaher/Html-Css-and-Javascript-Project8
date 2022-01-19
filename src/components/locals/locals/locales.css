@@ -1,0 +1,13 @@
+ /* primario -> #282829 */
+ /* secundario -> #F26935 */
+
+.locals {
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.locals__title {
+    align-self: flex-start;
+}
