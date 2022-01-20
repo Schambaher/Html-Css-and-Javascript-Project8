@@ -1,0 +1,44 @@
+.banner {
+    background-image: url('../../../../public/assets/banner-1.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.banner-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+}
+
+.banner__title {
+    color: white;
+    align-self: flex-start;
+}
+
+.banner__text {
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 768px){ 
+    .banner__text {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 850px){ 
+    .banner {
+        height: 80vh;
+    }
+}
+
+@media (max-height: 850px){ 
+    .banner {
+        height: 100vh;
+    }
+}

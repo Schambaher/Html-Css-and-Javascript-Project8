@@ -87,9 +87,19 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1.6rem;
+}
+
 img {
     width: 100%;
     max-width: 100%;
     display: block;
+}
+
+@media (min-width: 1024px){ 
+    p, a {
+        font-size: 1.8rem;
+    }
 }
 

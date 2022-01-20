@@ -5,6 +5,9 @@ import { Banner } from "./components/banner/Banner";
 import './styles/normalize.css';
 import './styles/initialize.css';
 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
   
   export const BasquetApp = () => {
     return (

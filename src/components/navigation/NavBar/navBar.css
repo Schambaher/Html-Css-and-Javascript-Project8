@@ -22,6 +22,7 @@
 
 .header-menu {
     font-size: 3rem;
+    color: white;
     cursor: pointer;
 }
 
@@ -31,6 +32,7 @@
     opacity: 0;
     overflow: hidden;
     transition: .3s;
+    background-color: #282829;
 }
 
 .header__navigation__content {
@@ -47,7 +49,6 @@
 
 .header__navigation__item__link {
     color: #282829;
-    font-size: 2rem;
     font-weight: 300;
     transition: .3s;
     color: white;
@@ -75,6 +76,7 @@
         flex: 0 0 auto;
         height: auto;
         overflow: visible;
+        background-color: transparent;
         opacity: 1;
     }
 
