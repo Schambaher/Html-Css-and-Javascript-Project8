@@ -1,6 +1,17 @@
+.background-1 {
+    background: url('../../../../public/assets/banner-1.jpg');
+}
+
+.background-2 {
+    background: url('../../../../public/assets/banner-2.jpg');
+}
+
+.background-3 {
+    background: url('../../../../public/assets/banner-3.jpg');
+}
+
 .banner {
-    background-image: url('../../../../public/assets/banner-1.jpg');
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: rgba(0, 0, 0, 0.5);

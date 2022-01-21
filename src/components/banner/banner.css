@@ -1,3 +1,8 @@
-.slider {
-    position: relative;
+.slick-dots li button:before {
+    font-size: 1.5rem !important;
+    color: #F26935 !important;
+}
+
+.slick-dots {
+    bottom: 3rem !important;
 }
